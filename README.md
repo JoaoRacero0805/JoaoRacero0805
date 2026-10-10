@@ -4,6 +4,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-racero-573305380)
 [![E-mail](https://img.shields.io/badge/E--mail-jpedroracero%40gmail.com-333333?style=flat-square&logo=gmail&logoColor=white)](mailto:jpedroracero@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-%40joaoracero-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/joaoracero/)
 [![Librando](https://img.shields.io/badge/Projeto-Librando-5B4B8A?style=flat-square)](https://www.librandotcc.com.br/)
 
 ---
