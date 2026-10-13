@@ -2,9 +2,7 @@
 
 <img src="assets/header.svg" width="100%" alt="João Pedro Racero Santos — Desenvolvedor de Software · Automação de Processos · Inteligência Artificial Aplicada">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-racero-573305380)
-[![E-mail](https://img.shields.io/badge/E--mail-jpedroracero%40gmail.com-333333?style=flat-square&logo=gmail&logoColor=white)](mailto:jpedroracero@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-%40joaoracero-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/joaoracero/)
+<br>
 
 <a href="https://www.linkedin.com/in/jo%C3%A3o-racero-573305380"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="mailto:jpedroracero@gmail.com"><img src="https://img.shields.io/badge/E--mail-161B22?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="E-mail"></a>
