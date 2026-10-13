@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="196" viewBox="0 0 840 196" role="img">
+<style>
+text{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace}
+@keyframes shimmer{0%{transform:translateY(-120px)}100%{transform:translateY(220px)}}
+@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%{r:4;opacity:.8}100%{r:11;opacity:0}}
+@keyframes nudge{0%,70%,100%{transform:translateX(0)}80%{transform:translateX(5px)}}
+.sh{animation:shimmer 3.2s ease-in-out infinite}
+.in{opacity:0;animation:in .6s ease-out forwards}
+.pl{animation:pulse 1.8s ease-out infinite}
+.ar{animation:nudge 2.6s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<title>Assistente de IA para Protocolos Internos — Responde dúvidas de novos colaboradores consultando os documentos e protocolos da empresa, com respostas objetivas baseadas nas fontes.</title>
+<defs>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a371f7"/><stop offset="1" stop-color="#58a6ff"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="bar"><rect x="0" y="0" width="4" height="196"/></clipPath>
+<clipPath id="cardclip"><rect width="840" height="196" rx="14"/></clipPath>
+</defs>
+<rect x=".5" y=".5" width="839" height="195" rx="14" fill="#161b22" stroke="#30363d"/>
+<g clip-path="url(#cardclip)"><rect width="4" height="196" fill="url(#acc)"/><g clip-path="url(#bar)"><rect class="sh" width="4" height="100" fill="url(#shine)"/></g></g>
+<g class="in" style="animation-delay:.05s">
+<rect x="32" y="28" width="60" height="60" rx="16" fill="url(#acc)"/>
+<g transform="translate(62 58)"><path d="M-14 -10h28a5 5 0 0 1 5 5v14a5 5 0 0 1-5 5H-2l-8 7v-7h-4a5 5 0 0 1-5-5V-5a5 5 0 0 1 5-5z" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round"/><circle cx="-7" cy="2" r="2" fill="#fff"/><circle cx="0" cy="2" r="2" fill="#fff"/><circle cx="7" cy="2" r="2" fill="#fff"/></g>
+</g>
+<g class="in" style="animation-delay:.15s"><text x="116" y="52" font-size="21" font-weight="700" fill="#e6edf3">Assistente de IA para Protocolos Internos</text></g>
+<g class="in" style="animation-delay:.2s">
+<rect x="638.0" y="27" width="174.0" height="26" rx="13" fill="#3fb950" fill-opacity=".14" stroke="#3fb950" stroke-opacity=".5"/>
+<circle class="pl" cx="652.0" cy="40" r="4" fill="#3fb950"/><circle cx="652.0" cy="40" r="4" fill="#3fb950"/><text x="664.0" y="44.5" font-size="12.5" font-weight="600" fill="#3fb950">Concluído e validado</text>
+</g>
+<g class="in" style="animation-delay:.3s"><text x="116" y="94" font-size="14.5" fill="#8b949e">Responde dúvidas de novos colaboradores consultando os documentos e</text><text x="116" y="116" font-size="14.5" fill="#8b949e">protocolos da empresa, com respostas objetivas baseadas nas fontes.</text></g>
+<g class="in" style="animation-delay:.4s"><rect x="116.0" y="148" width="97.0" height="24" rx="12" fill="#a371f7" fill-opacity=".12" stroke="#a371f7" stroke-opacity=".35"/><text class="mono" x="164.5" y="164" font-size="12" fill="#e6edf3" text-anchor="middle">IA aplicada</text><rect x="221.0" y="148" width="195.0" height="24" rx="12" fill="#a371f7" fill-opacity=".12" stroke="#a371f7" stroke-opacity=".35"/><text class="mono" x="318.5" y="164" font-size="12" fill="#e6edf3" text-anchor="middle">Recuperação de informação</text><rect x="424.0" y="148" width="125.0" height="24" rx="12" fill="#a371f7" fill-opacity=".12" stroke="#a371f7" stroke-opacity=".35"/><text class="mono" x="486.5" y="164" font-size="12" fill="#e6edf3" text-anchor="middle">Uso corporativo</text></g>
+
+</svg>

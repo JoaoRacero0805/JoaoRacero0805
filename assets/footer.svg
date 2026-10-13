@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="90" viewBox="0 0 840 90" role="img">
+<style>
+text{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace}
+@keyframes wave{from{transform:translateX(0)}to{transform:translateX(-420px)}}
+.w1{animation:wave 9s linear infinite}
+.w2{animation:wave 14s linear infinite reverse}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<title>Rodapé</title>
+<defs><linearGradient id="wg" x1="0" x2="1"><stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#a371f7"/></linearGradient>
+<clipPath id="fc"><rect width="840" height="90" rx="14"/></clipPath></defs>
+<g clip-path="url(#fc)">
+<path class="w2" d="M0 46 C105 30 315 62 420 46 C525 30 735 62 840 46 C945 30 1155 62 1260 46 C1365 30 1575 62 1680 46 V90 H0 Z" fill="url(#wg)" fill-opacity=".25"/>
+<path class="w1" d="M0 56 C105 44 315 68 420 56 C525 44 735 68 840 56 C945 44 1155 68 1260 56 C1365 44 1575 68 1680 56 V90 H0 Z" fill="url(#wg)" fill-opacity=".45"/>
+</g>
+</svg>

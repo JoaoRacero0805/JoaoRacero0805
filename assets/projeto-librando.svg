@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="196" viewBox="0 0 840 196" role="img">
+<style>
+text{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace}
+@keyframes shimmer{0%{transform:translateY(-120px)}100%{transform:translateY(220px)}}
+@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%{r:4;opacity:.8}100%{r:11;opacity:0}}
+@keyframes nudge{0%,70%,100%{transform:translateX(0)}80%{transform:translateX(5px)}}
+.sh{animation:shimmer 3.2s ease-in-out infinite}
+.in{opacity:0;animation:in .6s ease-out forwards}
+.pl{animation:pulse 1.8s ease-out infinite}
+.ar{animation:nudge 2.6s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<title>Librando — Ensino de Libras — Plataforma gamificada com trilha de lições, quizzes e correção de sinais pela câmera. Desenvolvida em equipe; mascote Lili guia o aprendizado.</title>
+<defs>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a371f7"/><stop offset="1" stop-color="#d2a8ff"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="bar"><rect x="0" y="0" width="4" height="196"/></clipPath>
+<clipPath id="cardclip"><rect width="840" height="196" rx="14"/></clipPath>
+</defs>
+<rect x=".5" y=".5" width="839" height="195" rx="14" fill="#161b22" stroke="#30363d"/>
+<g clip-path="url(#cardclip)"><rect width="4" height="196" fill="url(#acc)"/><g clip-path="url(#bar)"><rect class="sh" width="4" height="100" fill="url(#shine)"/></g></g>
+<g class="in" style="animation-delay:.05s">
+<rect x="32" y="28" width="60" height="60" rx="16" fill="url(#acc)"/>
+<g transform="translate(62 58)"><path d="M-6 14c-5-3-9-8-10-13-.5-2 2-3 3.4-1.6L-9 3V-12a2.3 2.3 0 0 1 4.6 0v9-13a2.3 2.3 0 0 1 4.6 0v13-11a2.3 2.3 0 0 1 4.6 0v11-8a2.3 2.3 0 0 1 4.6 0V5c0 6-3 9-6 10z" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g class="in" style="animation-delay:.15s"><text x="116" y="52" font-size="21" font-weight="700" fill="#e6edf3">Librando — Ensino de Libras</text></g>
+<g class="in" style="animation-delay:.2s">
+<rect x="685.0" y="27" width="127.0" height="26" rx="13" fill="#d29922" fill-opacity=".14" stroke="#d29922" stroke-opacity=".5"/>
+<text x="696.0" y="44.5" font-size="12.5" font-weight="600" fill="#d29922">Melhor TCC 2025</text>
+</g>
+<g class="in" style="animation-delay:.3s"><text x="116" y="94" font-size="14.5" fill="#8b949e">Plataforma gamificada com trilha de lições, quizzes e correção de sinais</text><text x="116" y="116" font-size="14.5" fill="#8b949e">pela câmera. Desenvolvida em equipe; mascote Lili guia o aprendizado.</text></g>
+<g class="in" style="animation-delay:.4s"><rect x="116.0" y="148" width="90.0" height="24" rx="12" fill="#a371f7" fill-opacity=".12" stroke="#a371f7" stroke-opacity=".35"/><text class="mono" x="161.0" y="164" font-size="12" fill="#e6edf3" text-anchor="middle">JavaScript</text><rect x="214.0" y="148" width="69.0" height="24" rx="12" fill="#a371f7" fill-opacity=".12" stroke="#a371f7" stroke-opacity=".35"/><text class="mono" x="248.5" y="164" font-size="12" fill="#e6edf3" text-anchor="middle">Node.js</text><rect x="291.0" y="148" width="69.0" height="24" rx="12" fill="#a371f7" fill-opacity=".12" stroke="#a371f7" stroke-opacity=".35"/><text class="mono" x="325.5" y="164" font-size="12" fill="#e6edf3" text-anchor="middle">Express</text><rect x="368.0" y="148" width="69.0" height="24" rx="12" fill="#a371f7" fill-opacity=".12" stroke="#a371f7" stroke-opacity=".35"/><text class="mono" x="402.5" y="164" font-size="12" fill="#e6edf3" text-anchor="middle">MongoDB</text></g>
+<g class="in" style="animation-delay:.5s"><text x="788" y="165" font-size="13.5" font-weight="600" fill="#58a6ff" text-anchor="end">Ver projeto</text><g class="ar"><path d="M796 160h12m-5-5 5 5-5 5" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></g>
+</svg>

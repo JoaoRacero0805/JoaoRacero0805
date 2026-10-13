@@ -1,68 +1,73 @@
-# João Pedro Racero Santos
+<div align="center">
 
-**Desenvolvedor de Software** · Automação de Processos · Inteligência Artificial Aplicada
+<img src="assets/header.svg" width="100%" alt="João Pedro Racero Santos — Desenvolvedor de Software · Automação de Processos · Inteligência Artificial Aplicada">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-racero-573305380)
 [![E-mail](https://img.shields.io/badge/E--mail-jpedroracero%40gmail.com-333333?style=flat-square&logo=gmail&logoColor=white)](mailto:jpedroracero@gmail.com)
 [![Instagram](https://img.shields.io/badge/Instagram-%40joaoracero-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/joaoracero/)
 
----
+<a href="https://www.linkedin.com/in/jo%C3%A3o-racero-573305380"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:jpedroracero@gmail.com"><img src="https://img.shields.io/badge/E--mail-161B22?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="E-mail"></a>
+<a href="https://www.instagram.com/joaoracero/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
 
-## Resumo
+</div>
 
-Técnico em Desenvolvimento de Sistemas e graduando em Desenvolvimento de Software Multiplataforma. Atuo no Magalu, onde analiso processos operacionais e desenvolvo automações e ferramentas internas que reduzem trabalho manual e aumentam a confiabilidade das operações.
+## Sobre mim
 
-Meu foco está em backend, integração entre sistemas, dados e inteligência artificial aplicada a problemas reais do negócio.
+<img src="assets/sobre.svg" width="100%" alt="Sobre mim: Desenvolvedor de Software. Automações e ferramentas internas no Magalu. Formação: Desenvolvimento de Software Multiplataforma na Fatec Franca (em andamento) e Técnico em Desenvolvimento de Sistemas pela ETEC Dr. Júlio Cardoso (2025). Certificação Introdução à Cibersegurança (Cisco). Idiomas: português e inglês. Foco em backend, integrações, dados e IA aplicada.">
 
----
+## Tecnologias
 
-## Formação
-
-| Curso | Instituição | Status |
-|---|---|---|
-| Desenvolvimento de Software Multiplataforma | Fatec Franca | Em andamento |
-| Técnico em Desenvolvimento de Sistemas | ETEC Dr. Júlio Cardoso | Concluído em 2025 |
-
-**Certificações e complementares:** Introdução à Cibersegurança (Cisco) · Inglês, 2 anos (Magical Formula)
-
----
-
-## Competências técnicas
-
-| Área | Tecnologias |
-|---|---|
-| Linguagens | Python, JavaScript, PHP, SQL |
-| Bancos de dados | MySQL, Firebase / Firestore |
-| Web | HTML, CSS, JavaScript |
-| Ferramentas e práticas | Git, GitHub, branches e pull requests, lint e build |
-
----
+<img src="assets/stack.svg" width="100%" alt="Python, JavaScript, PHP, MySQL, Firebase, Google Apps Script, HTML5, CSS, Git e GitHub">
 
 ## Projetos
 
-### Assistente de IA para Protocolos Internos
-Assistente que consulta documentos e protocolos corporativos para responder dúvidas de novos colaboradores, com respostas objetivas fundamentadas nas fontes disponíveis.
+<img src="assets/projeto-assistente.svg" width="100%" alt="Assistente de IA para Protocolos Internos — concluído e validado">
 
-- Recuperação de informação a partir da base documental da empresa
-- Respostas com referência às fontes, evitando conteúdo inventado
-- Projeto concluído e validado
+<details>
+<summary><b>Detalhes do projeto</b></summary>
+<br>
 
-### Librando — Plataforma de Ensino de Libras
-Plataforma educacional com trilha progressiva de atividades para o aprendizado de letras e sinais básicos da Língua Brasileira de Sinais. Reconhecido como melhor TCC de 2025.
+- Consulta a base de documentos e protocolos internos para responder dúvidas de novos colaboradores
+- Respostas objetivas, fundamentadas nos documentos disponíveis
+- Reduz dúvidas repetitivas e facilita o acesso ao conhecimento interno
 
-- Interface de aprendizagem interativa desenvolvida em JavaScript
-- Estruturação e persistência de dados com Firebase / Firestore
-- Pesquisa de reconhecimento e correção de gestos com Python e MediaPipe
+</details>
 
-[Aplicação](https://www.librandotcc.com.br/) · [Repositório](https://github.com/JoaoRacero0805/Librando)
+<br>
 
-### Automação de Acompanhamento de Cancelamentos
-Automação que centraliza pedidos de cancelamento em planilha e envia diariamente aos supervisores um relatório com as pendências, eliminando o acompanhamento manual.
+<a href="https://github.com/JoaoRacero0805/Librando"><img src="assets/projeto-librando.svg" width="100%" alt="Librando — plataforma de ensino de Libras, melhor TCC de 2025"></a>
 
-[Repositório](https://github.com/JoaoRacero0805/LembreteCancelamentoMAGALU)
+<details>
+<summary><b>Detalhes do projeto</b></summary>
+<br>
 
----
+- Trilha de lições, vídeos de sinais, exercícios, quizzes e sequência diária de estudos
+- Atividade com câmera que verifica se o sinal feito corresponde à letra esperada
+- Frontend em HTML, CSS e JavaScript; API em Node.js com Express e banco MongoDB Atlas
+- Teste com usuários: 75% avaliaram a correção de sinais pela câmera como muito satisfatória
+- Desenvolvido em equipe de cinco integrantes na ETEC Dr. Júlio Cardoso
 
-## Áreas de interesse
+[Acessar a plataforma](https://www.librandotcc.com.br/) · [Ver repositório](https://github.com/JoaoRacero0805/Librando)
 
-Backend e integração de sistemas · Engenharia de dados · IA aplicada · Automação de processos · Qualidade de software · Cibersegurança
+</details>
+
+<br>
+
+<a href="https://github.com/JoaoRacero0805/LembreteCancelamentoMAGALU"><img src="assets/projeto-cancelamentos.svg" width="100%" alt="Lembrete de Cancelamentos — automação em Google Apps Script"></a>
+
+<details>
+<summary><b>Detalhes do projeto</b></summary>
+<br>
+
+- Roda nos servidores do Google, sem precisar de computador ligado ou ação manual
+- E-mail ordenado do pedido mais antigo ao mais novo, com destaque para os atrasados
+- Dados sensíveis (e-mails, IDs de planilha) ficam nas propriedades do script, fora do código
+
+[Ver repositório](https://github.com/JoaoRacero0805/LembreteCancelamentoMAGALU)
+
+</details>
+
+<br>
+
+<img src="assets/footer.svg" width="100%" alt="">
